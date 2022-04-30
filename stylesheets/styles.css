@@ -34,12 +34,12 @@ h3, h4, h5, h6 {
   font-weight: 500;
 }
 
-a {
+a.outbound_link {
   color:#39c;
   text-decoration:none;
 }
 
-a:hover {
+a.outbound_link:hover {
   color:#069;
 }
 
@@ -267,4 +267,20 @@ footer {
     font-size:12pt;
     color:#444;
   }
+}
+
+a.outbound_link:hover {
+  font-weight: 500;
+}
+
+::selection {
+  background: #8cbac2; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #8cbac2; /* Gecko Browsers */
+}
+
+.date_text {
+  margin-top: -15px;
+  margin-bottom: 10px;
 }
